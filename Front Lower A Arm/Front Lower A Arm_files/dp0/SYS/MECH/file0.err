@@ -1,0 +1,23 @@
+/COM,ANSYS RELEASE 2024 R2           BUILD 24.2      UP20240603       20:34:36
+
+ *** WARNING ***                         CP =       0.125   TIME= 20:34:37
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.141   TIME= 20:34:37
+ Material number 35 (used by element 31387) should normally have at      
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =       0.203   TIME= 20:34:37
+ Overconstraint may occur for Lagrange multiplier or MPC based contact   
+ algorithm.                                                              
+
+ *** WARNING ***                         CP =       0.203   TIME= 20:34:37
+ Certain contact elements (for example 31376 & 31136) overlap with       
+ other.                                                                  
+
+ *** WARNING ***                         CP =       0.297   TIME= 20:34:37
+ Multiple constraints have been applied on degree of freedom 1 of        
+ contact node 243.  The program will remove certain internal MPCs.       
+ Please check the model carefully.                                       
