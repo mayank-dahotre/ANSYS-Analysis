@@ -1,0 +1,736 @@
+
+ Ansys Mechanical Enterprise Academic Research     
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *         ANSYS MAPDL 2024 R2          LEGAL NOTICES          *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2024 Ansys, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of Ansys, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the Ansys, Inc. online documentation or the Ansys, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * Ansys, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * Ansys, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the Ansys, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the Ansys, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2024 R2 
+     
+ Point Releases and Patches installed:   
+     
+ Ansys Service Pack 2024 R2.01   
+ Ansys Service Pack 2024 R2.02   
+ Ansys, Inc. License Manager 2024 R2 
+ Ansys, Inc. License Manager 2024 R2.01  
+ Ansys, Inc. License Manager 2024 R2.02  
+ Discovery 2024 R2   
+ Discovery 2024 R2.01
+ Discovery 2024 R2.02
+ Core WB Files 2024 R2   
+ Core WB Files 2024 R2.01
+ Core WB Files 2024 R2.02
+ SpaceClaim 2024 R2  
+ SpaceClaim 2024 R2.01   
+ SpaceClaim 2024 R2.02   
+ Icepak (includes CFD-Post) 2024 R2  
+ Icepak (includes CFD-Post) 2024 R2.01   
+ Icepak (includes CFD-Post) 2024 R2.02   
+ Ansys Dynamic Reporting 2024 R2 
+ Ansys Dynamic Reporting 2024 R2.01  
+ Ansys Dynamic Reporting 2024 R2.02  
+ CFD-Post only 2024 R2   
+ CFD-Post only 2024 R2.01
+ CFD-Post only 2024 R2.02
+ CFX (includes CFD-Post) 2024 R2 
+ CFX (includes CFD-Post) 2024 R2.01  
+ CFX (includes CFD-Post) 2024 R2.02  
+ Chemkin 2024 R2 
+ Chemkin 2024 R2.01  
+ Chemkin 2024 R2.02  
+ EnSight 2024 R2 
+ EnSight 2024 R2.01  
+ EnSight 2024 R2.02  
+ FENSAP-ICE 2024 R2  
+ FENSAP-ICE 2024 R2.01   
+ FENSAP-ICE 2024 R2.02   
+ Fluent (includes CFD-Post) 2024 R2  
+ Fluent (includes CFD-Post) 2024 R2.01   
+ Fluent (includes CFD-Post) 2024 R2.02   
+ Polyflow (includes CFD-Post) 2024 R2
+ Polyflow (includes CFD-Post) 2024 R2.01 
+ Polyflow (includes CFD-Post) 2024 R2.02 
+ Forte (includes EnSight) 2024 R2
+ Forte (includes EnSight) 2024 R2.01 
+ Forte (includes EnSight) 2024 R2.02 
+ ICEM CFD 2024 R2
+ ICEM CFD 2024 R2.01 
+ ICEM CFD 2024 R2.02 
+ TurboGrid 2024 R2   
+ TurboGrid 2024 R2.01
+ TurboGrid 2024 R2.02
+ Speos 2024 R2   
+ Speos 2024 R2.01
+ Speos 2024 R2.02
+ Speos HPC 2024 R2   
+ Speos HPC 2024 R2.01
+ Speos HPC 2024 R2.02
+ Zemax OpticStudio 2024 R2   
+ Zemax OpticStudio 2024 R2.01
+ Zemax OpticStudio 2024 R2.02
+ optiSLang 2024 R2   
+ optiSLang 2024 R2.01
+ optiSLang 2024 R2.02
+ Remote Solve Manager Standalone Services 2024 R2
+ Remote Solve Manager Standalone Services 2024 R2.01 
+ Remote Solve Manager Standalone Services 2024 R2.02 
+ Additive 2024 R2
+ Additive 2024 R2.01 
+ Additive 2024 R2.02 
+ Aqwa 2024 R2
+ Aqwa 2024 R2.01 
+ Aqwa 2024 R2.02 
+ Autodyn 2024 R2 
+ Autodyn 2024 R2.01  
+ Autodyn 2024 R2.02  
+ Customization Files for User Programmable Features 2024 R2  
+ Customization Files for User Programmable Features 2024 R2.01   
+ Customization Files for User Programmable Features 2024 R2.02   
+ LS-DYNA 2024 R2 
+ LS-DYNA 2024 R2.01  
+ LS-DYNA 2024 R2.02  
+ Material Calibration App 2024 R2
+ Material Calibration App 2024 R2.01 
+ Material Calibration App 2024 R2.02 
+ Mechanical Products 2024 R2 
+ Mechanical Products 2024 R2.01  
+ Mechanical Products 2024 R2.02  
+ Motion 2024 R2  
+ Motion 2024 R2.01   
+ Motion 2024 R2.02   
+ Sherlock 2024 R2
+ Sherlock 2024 R2.01 
+ Sherlock 2024 R2.02 
+ Sound - SAS 2024 R2 
+ Sound - SAS 2024 R2.01  
+ Sound - SAS 2024 R2.02  
+ ACIS Geometry Interface 2024 R2 
+ ACIS Geometry Interface 2024 R2.01  
+ ACIS Geometry Interface 2024 R2.02  
+ AutoCAD Geometry Interface 2024 R2  
+ AutoCAD Geometry Interface 2024 R2.01   
+ AutoCAD Geometry Interface 2024 R2.02   
+ Catia, Version 4 Geometry Interface 2024 R2 
+ Catia, Version 4 Geometry Interface 2024 R2.01  
+ Catia, Version 4 Geometry Interface 2024 R2.02  
+ Catia, Version 5 Geometry Interface 2024 R2 
+ Catia, Version 5 Geometry Interface 2024 R2.01  
+ Catia, Version 5 Geometry Interface 2024 R2.02  
+ Catia, Version 6 Geometry Interface 2024 R2 
+ Catia, Version 6 Geometry Interface 2024 R2.01  
+ Catia, Version 6 Geometry Interface 2024 R2.02  
+ Creo Elements/Direct Modeling Geometry Interface 2024 R2
+ Creo Elements/Direct Modeling Geometry Interface 2024 R2.01 
+ Creo Elements/Direct Modeling Geometry Interface 2024 R2.02 
+ Creo Parametric Geometry Interface 2024 R2  
+ Creo Parametric Geometry Interface 2024 R2.01   
+ Creo Parametric Geometry Interface 2024 R2.02   
+ Inventor Geometry Interface 2024 R2 
+ Inventor Geometry Interface 2024 R2.01  
+ Inventor Geometry Interface 2024 R2.02  
+ JTOpen Geometry Interface 2024 R2   
+ JTOpen Geometry Interface 2024 R2.01
+ JTOpen Geometry Interface 2024 R2.02
+ NX Geometry Interface 2024 R2   
+ NX Geometry Interface 2024 R2.01
+ NX Geometry Interface 2024 R2.02
+ Parasolid Geometry Interface  2024 R2   
+ Parasolid Geometry Interface  2024 R2.01
+ Parasolid Geometry Interface  2024 R2.02
+ Solid Edge Geometry Interface 2024 R2   
+ Solid Edge Geometry Interface 2024 R2.01
+ Solid Edge Geometry Interface 2024 R2.02
+ SOLIDWORKS Geometry Interface 2024 R2   
+ SOLIDWORKS Geometry Interface 2024 R2.01
+ SOLIDWORKS Geometry Interface 2024 R2.02
+
+
+          *****  MAPDL COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     4 CORES REQUESTED
+  INPUT FILE NAME              = C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\ScrF28C\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\ScrF28C\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= 2024 R2              BUILD= 24.2      UP20240603   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  03:32:45  NOV 22, 2024 CP=      0.016
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.203   TIME= 03:32:45
+ The /CONFIG,NOELDB command is not valid in a distributed memory         
+ parallel solution.  Command is ignored.                                 
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  3.54583333    
+
+ TITLE= 
+ wbnew--Steady-State Thermal (A5)                                              
+
+  ACT Extensions:
+      LSDYNA, 2024.2
+      5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+ /COM,     ANSYSMotion, 2024.2
+      20180725-3f81-49eb-9f31-41364844c769, wbex
+  
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\ScrF28C\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\wbnew_files\dp0\SYS\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\wbnew_files\user_files\
+ --- Data in consistent NMM units. See Solving Units in the help system for more
+
+ MPA UNITS SPECIFIED FOR INTERNAL    
+  LENGTH      = MILLIMETERS (mm)
+  MASS        = TONNE (Mg)
+  TIME        = SECONDS (sec)
+  TEMPERATURE = CELSIUS (C)
+  TOFFSET     = 273.0
+  FORCE       = NEWTON (N)
+  HEAT        = MILLIJOULES (mJ)
+
+ INPUT  UNITS ARE ALSO SET TO MPA 
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2024 R2          24.2     ***
+ Ansys Mechanical Enterprise Academic Research     
+ 01189725  VERSION=WINDOWS x64   03:32:45  NOV 22, 2024 CP=      0.219
+
+ wbnew--Steady-State Thermal (A5)                                              
+
+
+
+          ***** MAPDL ANALYSIS DEFINITION (PREP7) *****
+ *********** Nodes for the whole assembly ***********
+ *********** Elements for Body 1 'BRAKE ROTOR-FreeParts|Body1' ***********
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Send Materials ***********
+ *********** Create "Heat Flux" ***********
+ *********** Create "Convection" ***********
+ ***************** Define Uniform Initial temperature ***************
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.234
+
+
+ --- Number of total nodes = 6450
+ --- Number of contact elements = 2848
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 2815
+ --- Number of condensed parts = 0
+ --- Number of total elements = 5663
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  3.54583333    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  MAPDL SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ CHECK INITIAL OPEN/CLOSED STATUS OF SELECTED CONTACT ELEMENTS
+      AND LIST DETAILED CONTACT PAIR INFORMATION
+
+ SPLIT CONTACT SURFACES AT SOLVE PHASE
+
+    NUMBER OF SPLITTING TBD BY PROGRAM
+
+ DO NOT SAVE ANY RESTART FILES AT ALL
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 1 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE         2 TO          2 STEP          1
+
+       1376  ELEMENTS (OF       5663  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+       3658 NODES (OF       6450  DEFINED) SELECTED FROM
+     1376 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD HFLU ON SURFACE DEFINED BY ALL SELECTED NODES
+ VALUE =   1850.00000    
+
+ NUMBER OF HFLU ELEMENT FACE LOADS STORED =       1376
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO       6450 STEP          1
+
+       6450  NODES (OF       6450  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO       8003 STEP          1
+
+       5663  ELEMENTS (OF       5663  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE         3 TO          3 STEP          1
+
+       1472  ELEMENTS (OF       5663  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+       3754 NODES (OF       6450  DEFINED) SELECTED FROM
+     1472 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ GENERATE SURFACE LOAD CONV ON SURFACE DEFINED BY ALL SELECTED NODES
+ VALUES=  2.30000000      22.0000000    
+
+ NUMBER OF CONV ELEMENT FACE LOADS STORED =       1472
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO       6450 STEP          1
+
+       6450  NODES (OF       6450  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO       8003 STEP          1
+
+       5663  ELEMENTS (OF       5663  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ PRINTOUT RESUMED BY /GOP
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ELMISC 
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E-02
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_  ( =   0.00000     )  NE  
+      0  ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            CP =       0.266   TIME= 03:32:45
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 4 processes per solution.                     
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       0.266   TIME= 03:32:45
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       0.266   TIME= 03:32:45
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\Sc 
+ crF28C\file0.err ) for these warning messages.                          
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2024 R2          24.2     ***
+ Ansys Mechanical Enterprise Academic Research     
+ 01189725  VERSION=WINDOWS x64   03:32:45  NOV 22, 2024 CP=      0.266
+
+ wbnew--Steady-State Thermal (A5)                                              
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . TEMP
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** WARNING ***                         CP =       0.266   TIME= 03:32:45
+ Material number 2 (used by element 5156) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       0.266   TIME= 03:32:45
+ The step data was checked and warning messages were found.              
+  Please review output or errors file (                                  
+ C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\Sc 
+ crF28C\file0.err ) for these warning messages.                          
+
+ *** NOTE ***                            CP =       0.266   TIME= 03:32:45
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 5663
+  ...Number of nodes:    6450
+  ...Decompose to 4 CPU domains
+  ...Element load balance ratio =     1.016
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      VENG        ALL               
+      FFLU        ALL               
+      CONT        ALL               
+      MISC        ALL       _ELMISC 
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 1437.62379 at element 2052.                                   
+ Minimum = 1.95406364 at element 7360.                                   
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      2815  SOLID291      0.062   0.000022
+        2      1376  SURF152       0.000   0.000000
+        3      1472  SURF152       0.016   0.000011
+ Time at end of element matrix formulation CP = 0.328125.                
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =        6450,    Maximum wavefront =     65
+
+
+  Memory allocated on only this MPI rank (rank     0)
+  -------------------------------------------------------------------
+  Equation solver memory allocated                     =     2.293 MB
+  Equation solver memory required for in-core mode     =     2.209 MB
+  Equation solver memory required for out-of-core mode =     1.804 MB
+  Total (solver and non-solver) memory allocated       =   396.211 MB
+
+
+  Total memory summed across all MPI ranks on this machines
+  -------------------------------------------------------------------
+  Equation solver memory allocated                     =     8.559 MB
+  Equation solver memory required for in-core mode     =     8.248 MB
+  Equation solver memory required for out-of-core mode =     6.844 MB
+  Total (solver and non-solver) memory allocated       =   728.504 MB
+
+ *** NOTE ***                            CP =       0.375   TIME= 03:32:45
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+ Distributed sparse solver maximum pivot= 1998.72011 at node 4319 TEMP.  
+ Distributed sparse solver minimum pivot= 75.2842296 at node 439 TEMP.   
+ Distributed sparse solver minimum pivot in absolute value= 75.2842296   
+ at node 439 TEMP.                                                       
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      2815  SOLID291      0.000   0.000000
+        2      1376  SURF152       0.000   0.000000
+        3      1472  SURF152       0.031   0.000021
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1      2815  SOLID291      0.031   0.000011
+        2      1376  SURF152       0.000   0.000000
+        3      1472  SURF152       0.016   0.000011
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** MAPDL BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        0.188 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+        0.438 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        0.812 MB WRITTEN ON RESULTS FILE: file0.rth
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  3.54583333    
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.422
+
+
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2024 R2          24.2     ***
+ Ansys Mechanical Enterprise Academic Research     
+ 01189725  VERSION=WINDOWS x64   03:32:46  NOV 22, 2024 CP=      0.422
+
+ wbnew--Steady-State Thermal (A5)                                              
+
+
+
+          ***** MAPDL RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =       0.422   TIME= 03:32:46
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE MAPDL POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.422
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  3.54611111    
+
+ PARAMETER _PREPTIME =     0.000000000    
+
+ PARAMETER _SOLVTIME =     0.000000000    
+
+ PARAMETER _POSTTIME =     1.000000000    
+
+ PARAMETER _TOTALTIM =     1.000000000    
+
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.01625442    
+
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.446210000E-01
+
+ *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
+
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  6450.00000    
+
+ /FCLEAN COMMAND REMOVING ALL LOCAL FILES
+ --- Total number of nodes = 6450
+ --- Total number of elements = 5663
+ --- Element load balance ratio = 1.01625442
+ --- Time to combine distributed files = 4.4621E-02
+ --- Sparse memory mode = 2
+ --- Number of DOF = 6450
+
+ EXIT MAPDL WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          2
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------------------- M A P D L   S T A T I S T I C S ------------------------+
+
+Release: 2024 R2            Build: 24.2       Update: UP20240603   Platform: WINDOWS x64 
+Date Run: 11/22/2024   Time: 03:32     Process ID: 9372
+Operating System: Windows 11  (Build: 22631)
+
+Processor Model: 13th Gen Intel(R) Core(TM) i5-13420H
+
+Compiler: Intel(R) Fortran Compiler Classic Version 2021.9  (Build: 20230302)
+          Intel(R) C/C++ Compiler Classic Version 2021.9  (Build: 20230302)
+          Intel(R) oneAPI Math Kernel Library Version 2023.1-Product Build 20230303
+
+Number of machines requested            :    1
+Total number of cores available         :   12
+Number of physical cores available      :    8
+Number of processes requested           :    4
+Number of threads per process requested :    1
+Total number of cores requested         :    4 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2021.11 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0             LAPTOP-A3UI4BBD   C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\ScrF28C
+     1             LAPTOP-A3UI4BBD   C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\ScrF28C
+     2             LAPTOP-A3UI4BBD   C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\ScrF28C
+     3             LAPTOP-A3UI4BBD   C:\Users\Hrishi\AppData\Local\Temp\WB_Hrishi_26272_2\_ProjectScratch\ScrF28C
+ 
+Latency time from master to core     1 =    2.281 microseconds
+Latency time from master to core     2 =    2.010 microseconds
+Latency time from master to core     3 =    2.308 microseconds
+ 
+Communication speed from master to core     1 =  6620.87 MB/sec
+Communication speed from master to core     2 =  4184.06 MB/sec
+Communication speed from master to core     3 =  6413.75 MB/sec
+
+Total CPU time for main thread                    :        0.7 seconds
+Total CPU time summed for all threads             :        0.5 seconds
+
+Elapsed time spent obtaining a license            :        0.4 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.0 seconds
+Elapsed time spent solution - preprocessing       :        0.1 seconds
+Elapsed time spent computing solution             :        0.2 seconds
+Elapsed time spent solution - postprocessing      :        0.0 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (symmetric)
+
+Sum of disk space used on all processes           :        6.3 MB
+
+Sum of memory used on all processes               :      549.0 MB
+Sum of memory allocated on all processes          :     2880.0 MB
+Physical memory available                         :         16 GB
+Total amount of I/O written to disk               :        0.0 GB
+Total amount of I/O read from disk                :        0.0 GB
+
++------------------ E N D   M A P D L   S T A T I S T I C S -------------------+
+
+
+ *-----------------------------------------------------------------------------*
+ |                                                                             |
+ |                               RUN COMPLETED                                 |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Ansys MAPDL 2024 R2         Build 24.2         UP20240603    WINDOWS x64   |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Database Requested(-db)     1024 MB     Scratch Memory Requested   1024 MB |
+ |  Max Database Used(Master)      7 MB     Max Scratch Used(Master)    137 MB |
+ |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)   134 MB |
+ |  Sum Database Used(All)        10 MB     Sum Scratch Used(All)       539 MB |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |        CP Time      (sec) =          0.531       Time  =  03:32:46          |
+ |        Elapsed Time (sec) =          3.000       Date  =  11/22/2024        |
+ |                                                                             |
+ *-----------------------------------------------------------------------------*

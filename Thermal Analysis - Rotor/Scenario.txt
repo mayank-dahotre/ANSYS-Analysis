@@ -1,0 +1,3 @@
+260kg mass chassis travelling at max velocity of 12.5 m/s coming to a sudden halt. (energy = 20312)
+
+Assuming all the kinetic energy to go to rotor(area = 11028 W/mm^2 K) in the form of heat energy 
